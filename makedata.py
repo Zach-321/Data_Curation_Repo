@@ -29,3 +29,6 @@ while i < (len(ids)): #initialize while loop to API request for each ID
 # rename columns to proper names
 df.columns = ['Date','Fin_Market_Interest_Rates', 'CPI', 'Num_of_Workers(thousands)','Unemployment_Rate',
 'Work_Partic_Rate_Women', 'GDP(billions)', 'Work_Partic_Rate_All', 'Real_GDP_per_Capita', 'Hourly_Wages_Private($)']
+
+# Note: not every variable in my dataframe has a value for every row, because each variable has been tracked for a different amount of time
+
